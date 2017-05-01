@@ -19,7 +19,7 @@ var App = (function() {
   };
   
   
-  App.prototype._initialize = function(size, n) {
+  App.prototype._initialize = function() {
     
   };
   

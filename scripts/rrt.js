@@ -11,7 +11,7 @@ var RRT = (function() {
   
   
   return {
-    RRT: RRT,
+    RRT:  RRT
   };
 } ());
 
