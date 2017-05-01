@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <title>Rapidly-Exploring Random Tree</title>
+  
+  <link rel="stylesheet" href="vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="styles/main.css"/>
+</head>
+
+<body>
+  <div class="header">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<a class="navbar-brand text-center center-block" href="#">RRT</a>
+			</div>
+		</nav>
+  </div>
+  
+  <div class="container-full">
+    <div class="row">
+
+      <!-- LEFT PANEL -->
+      <div class="col-md-2 col-md-offset-1">
+        <div class="panel panel-default">
+          <div class="panel-heading">Control points</div>
+          
+          <div class="panel-body">
+
+          </div>
+          
+        </div>
+      </div>
+      
+      
+      <!-- VIEW -->            
+      <div class="col-md-6">
+        <div class="canvas-container" id="view"></div>
+      </div>
+      
+
+      <!-- RIGHT PANEL -->
+      <div class="col-md-2">
+        <div class="panel panel-default">
+          <div class="panel-heading">Controls</div>
+          <div class="panel-body">
+
+          </div>
+        </div>        
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+        <p class="text-muted">(c) 2017 by Adam Wolniakowski @ <a href="https://deltastep.blogspot.com">www.deltastep.blogspot.com</a></p>
+        <p class="text-muted">info about this demo: TODO</p>
+    </div>
+  </div>
+  
+  
+  <!-- scripts -->
+  <script src="vendor/underscore/underscore.min.js"></script>
+  <script src="vendor/jquery/jquery-3.2.0.min.js"></script>
+  <script src="vendor/concrete/concrete.min.js"></script>
+  <script src="scripts/rrt.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
